@@ -8,7 +8,7 @@ h1{
 .orange-color{
     color: brown;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
@@ -32,4 +32,22 @@ section{
     background-repeat:no-repeat;
     background-position: left;
     background-size: 500px;
+}
+.shadow{
+    width: 40%;
+    margin-left: 5% ;
+    margin-right: 5%;
+    padding-left: 60px;
+    box-shadow:10px 10px 40px black;
+    border-left: 10px solid orangered; ;
+}
+.experience{
+    border-left:rgb(27, 27, 26);
+}
+#w2{
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
